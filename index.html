@@ -8,12 +8,14 @@
 </head>
 
 <body>
-    <header>
+    <!-- Cabeçalho -->
+    <header> 
         <h1>Santuario da Pitty &#x1F415</h1>
         <hr>
     </header>
 
     <main>
+        <!-- Primeiro texto do site -->
         <section class="origem-pitty">
             <p>
                 A Pitty Nasceu em dezembro de 2014, e chegou pra mim em janeiro de 2015,  
@@ -37,22 +39,34 @@
 
         </section>
 
+        <div>
+            <br>
+        </div>
+
+        <!-- Foto com função de ampliação e texto paralelo-->
         <section class="primeira-foto-pitty">
 
-            <div class="img-primeira-foto">
-                <img id="primeira-foto" src="primeira foto da pitty.png" alt="Cão filhote, dourado, olhando para a camera">
+            <div class="primeira-foto">
+                
+                <img id="primeira-foto" src="fotos/primeira-foto-da-pitty.png" alt="Cão filhote, dourado, olhando para a camera">
 
             </div>
-    
+
+            <!-- Texto parelelo -->
             <div class="texto-primeira-foto">
                 <p>
-                Essa é a foto que enviei para minha mãe, afim de convence-la de ficar com o cão. <br><br>
-                Independentemente da minha mãe e irmã  terem achado o cãozinho feioso, eu fiz questão de lutar pelo lugar dela na familia.
+                    Essa é a foto que enviei para minha mãe, afim de convence-la de ficar com o cão. <br><br>
+                    Independentemente da minha mãe e irmã  terem achado o cãozinho feioso, eu fiz questão de lutar pelo lugar dela na familia.
                 </p>
             </div>
-
         </section>
+            
+            <!-- divisão visual -->
+            <div>
+                <br>    
+            </div>
 
+        <!-- Texto com subtitulo -->
         <section class="vida-da-pitty">
 
             <h2>Os belos 11 anos de Pitty</h2>  
@@ -74,10 +88,27 @@
 
         </section>
 
+        <!-- divisão visual -->
+        <div>
+            <br>    
+        </div>
+        
+        <!-- Galeria interativa de fotos -->
+        <section class="galeria-pitty">
+            <h2>Galeria de fotos da Pitty</h2>
+
+            <div class="galeria-container"> </div>
+           
+        </section>
+
     </main>
-   <div id="lightbox-modal">
-        <img id="foto-modal" src="primeira foto da pitty.png" alt="">
+    
+    <!-- Lightbox para ampliação de fotos -->
+    <div id="lightbox-modal">
+        <img id="foto-modal" src= alt="">
     </div>
+
+    <!-- Chamando js -->
     <script src="script.js"></script>
 </body>
 </html>
